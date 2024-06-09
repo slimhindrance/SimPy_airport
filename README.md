@@ -69,8 +69,11 @@ The simulation is executed multiple times to gather average metrics:
 The results are printed at the end of the simulation:
 
 `print('Average cumulative wait time: ' + str(sim_wait_avg))`
+
 `print('Average cumulative checkin time: ' + str(sim_clerk_avg))`
+
 `print('Average cumulative scan time: ' + str(sim_scan_avg))`
+
 `print('Average cumulative system time: ' + str(sim_time_avg))`
 
 Running the Simulation
